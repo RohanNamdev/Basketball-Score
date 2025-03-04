@@ -1,0 +1,52 @@
+@font-face {
+  font-family: digital;
+  src: url(digital-7/digital-7.ttf);
+}
+
+h1 {
+  color: white;
+  font-size: 2.5rem;
+  margin-bottom: 5px;
+}
+
+h2 {
+  background-color: black;
+  color: rgb(197, 83, 45);
+  font-size: 5.5rem;
+  font-family: "digital";
+  font-weight: bold;
+  padding: 10px 40px;
+  margin-top: 0px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.container {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(32, 32, 80);
+  border-radius: 10px;
+  border: 5px solid white;
+  flex-wrap: wrap;
+}
+
+body{
+    background-color: rgb(230, 226, 222);
+}
+
+button{
+
+    font-size: 1.5rem;
+    font-family:'digital';
+    background-color: transparent;
+    color: rgb(200, 198, 198);
+    border: 1px solid rgb(200, 198, 198);
+    margin-bottom: 50px;
+    border-radius: 4px;
+    padding: 8px 12px;
+}
+
+.reset-btn{
+    width: 80%;
+}
